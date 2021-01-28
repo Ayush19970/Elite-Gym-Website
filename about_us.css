@@ -1,0 +1,98 @@
+.btn button{
+	background-color:#f4d442;
+	border:2px solid black;
+	color:black;
+	width:20%;
+	padding:10px 24px;
+	cursor:pointer;
+	float:left;
+	box-shadow:0 5px 0 red;
+}
+div.block_div ul li{
+	float: left
+}
+ul.firstrow {
+	margin-left:20%;	
+	display:inline-block;
+}
+
+ul.secondrow {
+	margin-left:30%;	
+	display:inline-block;
+}
+
+footer {
+	background-color:#EABD27;
+}
+
+.btn:after  {
+	content:"";
+	clear:both;
+	display:table;
+}
+
+.btn button:hover {
+	background-color:red;
+}
+    @font-face{
+	   font-family:font_style;
+	   src : url ('font\ethnocentric rg.ttf');
+	   }
+	   
+.hear h1 {
+	   font-family:font_style;
+	}
+.hear{
+	font-family:headerstyle;
+	color:#f4d442;
+	font-size:60px;
+}
+/
+.ffoter ul{
+	 list-style:none;
+	 position : relative;
+ }
+ul li{
+	  text-decoration:none;
+	  display:block;
+  }
+#mark
+{
+	color:#f4cb42;
+	font-size:70px;
+
+}
+marquee{
+	color:#edca07;
+	font-family:headerstyle;
+	font-size:30px;
+}
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: white;
+}
+div.block_div ul li{
+	color:#edca07;
+	font-size:15px;
+}
+div.block_div ul li img{
+	display:block;
+	position:absolute;
+	border-left:#42dff4 inset 6px;
+	border-bottom:#42dff4 outset 6px;
+	left:74%;
+} 
+div.block_div ul{ 
+	height:210px;
+	border:dotted 5px #f4d442;
+	border-radius: 10px;
+}
+
+@font-face{
+	font-family:font1;
+	src:url(Blazed)
+}

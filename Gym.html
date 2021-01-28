@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elite Gym</title>
+</head>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="CSS/Gym.css">
+<style>
+    body{
+        font-family: 'Coda Caption', sans-serif;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url("Pics/1.jpg");
+    }
+    .left{
+        display: inline-block;
+        /* border: 2px solid pink; */
+        position: absolute;
+        left: 10px;
+        top: 12px;
+    }
+    .left img{
+        width:100px;
+        height:100px;
+    }
+    .left div{
+        text-align: center;
+        
+    }
+    .mid{
+        display: block;
+        width:40%;
+        margin:12px auto;   
+        /* border: 2px solid whitesmoke; */
+    }
+    .right{
+        position: absolute;
+        right: 10px;
+        top: 12px;
+        display:inline-block;
+        /* border: 2px solid green; */
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+    
+        display: inline-block;
+        font-size: 15px;
+    }
+    .navbar li a{
+    
+        color:white;
+        text-decoration: none;
+        padding: 5px  10px;
+}
+.navbar li a:hover,.navbar li a.active{
+    text-decoration: underline;
+    color:blue;
+
+}
+    .btn{
+        font-family: 'Coda Caption', sans-serif;
+        margin :0px 10px;
+        background-color: black;
+        color: white;
+        padding:1px 4px;
+        border: 2px solid white;
+        border-radius: 10px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+    .btn:hover{
+        background-color: rgb(136, 136, 132);
+    }
+    .container{
+        text-align: center;
+        border: 2px solid white;
+        margin: 150px 80px;
+        padding: 75px;
+        width:33%;
+        border-radius: 20px;
+
+    }
+    .form-group input {
+        font-family: 'Coda Caption', sans-serif;
+        text-align: center;
+        border:2px solid black;
+        padding: 1px;
+        margin: 5px auto;
+        font-size: 25px;
+        border-radius: 10px;
+    }
+    .container h1{
+        text-align: center;
+    }
+    .container button{
+        display: block;
+        width: 83%;
+        margin: 20px auto;
+    }
+
+    
+</style>
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="Pics/2.jpg" alt="Logo">
+           <div> Elite Gym</div>
+        </div>
+        <marquee>Welcome to <font color="orange">THE FITNESS CONNECTION</font></MARQUEE>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="Gym.html">Home</a></li>
+                <li><a href="Why select us.html">Why Select Us?</a></li>
+                <li><a href="Equipments.html"> Equipments</a></li>
+                <li><a href="CallUs.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call Us</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+      <h1> !!! Join the best !!!</h1> 
+      <form action="noaction.php ">
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Name">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Age">
+        </div>
+        <div class="form-group">
+         Gender: Male   <input type="checkbox"> &nbsp; Female<input type="checkbox">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Locality">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Email Id">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Phone Number">
+        </div>
+        <button class="btn">Submit</button>
+          </div>
+      </form>
+    </div>
+</body>
+</html>
